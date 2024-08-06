@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "GoogleInteractiveMediaAds",
+  name: "GoogleInteractiveMediaAdsTV",
   platforms: [.tvOS(.v11)],
   products: [
     .library(
@@ -28,9 +28,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleInteractiveMediaAds",
-      url:
-        "https://imasdk.googleapis.com/downloads/ima/tvos/GoogleInteractiveMediaAds-tvos-v4.13.0.zip",
-      checksum: "bddd3afaa7f13f8205a51f8798e8db285e495b3598a37dce47da1b29d06aae44"
+      url: "https://imasdk.googleapis.com/native/downloads/ima-tvos-v4.8.2.zip",
+      checksum: "4e5702710cee997e7f1abf6393978eb9575c54b468edc5276b9a4d4d4879cb49"
     )
   ]
 )
