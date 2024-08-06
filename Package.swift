@@ -21,7 +21,7 @@ let package = Package(
   platforms: [.tvOS(.v11)],
   products: [
     .library(
-      name: "GoogleInteractiveMediaAds",
+      name: "GoogleInteractiveMediaAdsTV",
       targets: ["GoogleInteractiveMediaAds"]
     )
   ],
